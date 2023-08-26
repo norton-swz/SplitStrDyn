@@ -1,1 +1,24 @@
-# SplitStrDyn
+# 作业2：SplitStrDyn
+## 项目简介
++ **SplitStrDyn**：解决方案
+	+ **SplitStrDyn**：动态链接库项目
+	+ **Split-Test**：使用`GoogleTest`框架进行测试的项目
+## 运行方式
+1. 点击上方工具栏中的`测试`
+2. 点击`测试资源管理器`
+3. 点击`在视图中运行所有测试`
+## 操作日志
+1. 创建动态链接库项目
+   1. 修改项目属性
+      1. 右键项目，点击`属性` -> `配置属性` -> `常规` -> `配置类型`，修改为`动态库`
+    2. 创建头文件和源文件
+    3. 生成
+2. 创建测试项目
+     1. 设置所调用dll的包含目录和库目录
+     2. 在属性页面下的链接器的输入中，设置附加依赖项
+     3. 生成测试项目，将动态链接库文件复制到`Debug`文件夹下，编写测试代码
+## 参考文献
++ [Markdown教程](https://blog.csdn.net/qq_40818172/article/details/126260661)
++ [动态链接库教程1](https://blog.csdn.net/jing_zhong/article/details/114211690?spm=1001.2014.3001.5506)
++ [动态链接库教程2](https://blog.csdn.net/LonelyBHBH/article/details/124422914?spm=1001.2014.3001.5506)
++ [vs上传项目到github](https://blog.csdn.net/qq_61786525/article/details/126454909?spm=1001.2014.3001.5506)
